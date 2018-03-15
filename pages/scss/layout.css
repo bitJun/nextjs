@@ -1,0 +1,58 @@
+.layout-fixed{
+  opacity: 1;
+}
+.layout-fixed-header{
+  position: fixed;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 0 13px;
+  background: #fff;
+  line-height: 18px;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 1px solid #E5E5E5;
+  z-index: 9;
+}
+.layout-fixed-footer{
+  position: fixed;
+  height: 48px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+
+.layout-fixed-main{
+  width: 100%;
+  /* main绝对定位，进行内部滚动 */
+  position: absolute;
+  top: 0;
+  bottom: 48px;
+  /* 使之可以滚动 */
+  overflow-y: scroll;
+  /* 增加该属性，可以增加弹性 */
+  -webkit-overflow-scrolling: touch;
+  z-index: 8;
+}
+.layout-fixed-main-list{
+  width: 100vw;
+}
+
+.layout-fixed .header-box .addon {
+  position: absolute;
+  left: 15px;
+  top: 14px;
+  display: block;
+}
+
+.layout-fixed .nav-box {
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.layout-fixed .header-box .addon.back {
+  background-size: 100% 100%;
+  width: 10px;
+  height: 20px;
+}

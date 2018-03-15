@@ -1,0 +1,50 @@
+.nav-border {
+  border-bottom: 1px solid #e5e5e5;
+}
+.row-header {
+  height: 43px;
+  margin-left: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 16px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.row-header img {
+  float: left;
+  width: 14px;
+}
+.row-project-title {
+  float: left;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+.row-project-status {
+  float: right;
+  margin-right: 15px;
+}
+.row-project-name {
+  margin: 10px 0 0 15px;
+  line-height: 16px;
+  font-size: 16px;
+  color: #666;
+}
+.row-project-time {
+  margin: 10px 0 0 15px;
+  line-height: 16px;
+  font-size: 16px;
+  color: #666;
+}
+.project-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 998;
+}
+.project-detail {
+  padding-bottom: 15px;
+}
+.project-detail_active {
+  background-color: rgba(17, 140, 238, .08);
+}

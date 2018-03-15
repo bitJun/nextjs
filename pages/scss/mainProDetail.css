@@ -1,0 +1,12 @@
+.main-pro-nav{
+  border-bottom: 1px solid #e5e5e5;
+}
+.tab-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: '#fff';
+  width: 100%;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}

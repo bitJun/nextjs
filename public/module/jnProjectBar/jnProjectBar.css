@@ -1,0 +1,76 @@
+
+.menu-active .menu-meng {
+  content: '';
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  background-color: #000;
+  opacity: 0.4;
+  z-index: 999;
+}
+.search-bar{
+  position: relative;
+  padding: 14px 0 14px;
+  height: 18px;
+  line-height: 18px;
+  background-color: white;
+}
+.search-bar:after {
+  content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    left: 0;
+    height: 1px;
+    background: #e5e5e5;
+}
+.search-bar-title{
+  color: #666;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+.search-bar-arrow{
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: super;
+  position: relative;
+}  
+.search-bar-arrow:after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: -4px;
+  width: 0;
+  height: 0;
+  border-width: 4px 4px 0;
+  border-style: solid;
+  border-color: #999 transparent transparent;
+}
+.search-bar-menu-item {
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-bar-menu {
+  margin-top: 3px;
+  position: relative;
+  z-index: 1000 !important;
+}
+.search-bar :global .am-list-content {
+  font-size: 14px !important;
+  color: #666 !important;
+}
+.search-bar :global .am-menu .am-flexbox .am-flexbox-item:last-child .am-list .am-list-item {
+  border-bottom: 1px solid #e5e5e5;
+}
